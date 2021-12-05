@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Thai Market</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg" />
+
+    <!-- ========================= CSS here ========================= -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/LineIcons.3.0.css" />
+    <link rel="stylesheet" href="assets/css/tiny-slider.css" />
+    <link rel="stylesheet" href="assets/css/glightbox.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <!-- API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD4DdGgEXT2xstH_OCH7-foD7HBN8GFedw&callback=initMap"
+    async defer></script>
+
+
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- /End Preloader -->
+
+    <!-- Start Header Area -->
+    <header class="header navbar-area">
+        <!-- Start Top bar -->
+        <div class="topbar">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 col-md-4 col-12">
+                        <div class="top-left">
+                            <div style="text-align: left;" class="top-middle">
+                                <ul class="useful-links">
+                                    <li><a href="index.html">ขายสินค้า</a></li>
+                                    <li><a href="about-us.html">เกี่ยวกับเรา</a></li>
+                                    <li><a href="contact.html">ติดต่อ</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12">
+
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12">
+                        <div class="top-end">
+                            <!--div class="user">
+                                <i class="lni lni-user"></i>
+                                Hello
+                            </!--div-->
+                            <ul class="user-login">
+                                <li>
+                                    <a href="login.html">เข้าสู่ระบบ</a>
+                                </li>
+                                <li>
+                                    <a href="login.html">สมัครใหม่</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Top bar -->
+        <!-- Start Header Middle -->
+        <div class="header-middle">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-md-3 col-7">
+                        <!-- Start Header Logo -->
+                        <a class="navbar-brand" href="index.html">
+                            <img  src="assets/images/logo/Capture2.PNG" alt="Logo">
+                        </a>
+                        <!-- End Header Logo -->
+                    </div>
+                    <div class="col-lg-5 col-md-7 d-xs-none">
+                        <!-- Start Main Menu Search -->
+                        <div class="main-menu-search">
+                            
+                            <!-- navbar search start -->
+                            <div class="navbar-search search-style-5">
+                                <div class="search-select">
+
+                                </div>
+                                <div class="search-input">
+                                    <input type="text" placeholder="Search">
+                                </div>
+                                <div class="search-btn">
+                                    <button><i class="lni lni-search-alt"></i></button>
+                                </div>
+                            </div>
+                            <!-- navbar search Ends -->
+                        </div>
+                        <!-- End Main Menu Search -->
+                    </div>
+                    <div class="col-lg-4 col-md-2 col-5">
+                        
+                        <div class="middle-right-area">
+                            <div class="nav-hotline">
+                                <i class="lni lni-phone"></i>
+                                <h3>ติดต่อ:
+                                    <span>036 000 0000</span>
+                                </h3>
+                            </div>
+                            <div class="navbar-cart">
+                                <div class="wishlist">
+                                    <a href="javascript:void(0)">
+                                        <i class="lni lni-heart"></i>
+                                        <span class="total-items">0</span>
+                                    </a>
+                                </div>
+                                <div class="cart-items">
+                                    <a href="javascript:void(0)" class="main-btn">
+                                        <i class="lni lni-cart"></i>
+                                        <span class="total-items">0</span>
+                                    </a>
+                                    <!-- Shopping Item -->
+                                    <div class="shopping-item">
+                                        <div class="dropdown-cart-header">
+                                            <span>0 รายการ</span>
+                                            <a href="cart.html">ดูรถเข็น</a>
+                                        </div>
+                                        <ul class="shopping-list">
+                                            <!--li>
+                                                <a href="javascript:void(0)" class="remove" title="Remove this item"><i
+                                                        class="lni lni-close"></i></a>
+                                                <div class="cart-img-head">
+                                                    <a class="cart-img" href="product-details.html"><img
+                                                            src="assets/images/header/cart-items/item1.jpg" alt="#"></a>
+                                                </div>
+
+                                                <div class="content">
+                                                    <h4><a href="product-details.html">
+                                                            Apple Watch Series 6</a></h4>
+                                                    <p class="quantity">1x - <span class="amount">$99.00</span></p>
+                                                </div>
+                                            </!li-->
+                                            <!--li>
+                                                <a href="javascript:void(0)" class="remove" title="Remove this item"><i
+                                                        class="lni lni-close"></i></a>
+                                                <div class="cart-img-head">
+                                                    <a class="cart-img" href="product-details.html"><img
+                                                            src="assets/images/header/cart-items/item2.jpg" alt="#"></a>
+                                                </div>
+                                                <div class="content">
+                                                    <h4><a href="product-details.html">Wi-Fi Smart Camera</a></h4>
+                                                    <p class="quantity">1x - <span class="amount">$35.00</span></p>
+                                                </div>
+                                            </li-->
+                                        </ul>
+                                        <div class="bottom">
+                                            <div class="total">
+                                                <span>รวม</span>
+                                                <span class="total-amount">0</span>
+                                            </div>
+                                            <div class="button">
+                                                <a href="checkout.html" class="btn animate">สั่งสินค้า</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--/ End Shopping Item -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Header Middle -->
+        
+    </header>
+    <!-- End Header Area -->
+
+    
+
+    <!-- Start Ads Area -->
+    <section class="hero-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-12 custom-padding-right">
+                    <div class="slider-head">
+                        <!-- Start Hero Slider -->
+                        <div class="hero-slider">
+                            <!-- Start Single Slider -->
+                            <div class="single-slider"
+                                style="background-image: url(http://www.gourmetandcuisine.com/Images/editor_upload/_editor20180706041955_original.jpg);">
+                                <!--div class="content">
+                                    
+                                </!--div-->
+                            </div>
+                            <!-- End Single Slider -->
+                            <!-- Start Single Slider -->
+                            <div class="single-slider"
+                                style="background-image: url(https://huahin.town/wp-content/uploads/2021/04/874vb0iumgyqhzfan3cotr6lejp2w9x5.jpg);">
+                                <!--div class="content">
+                                    </div>
+                                </!--div-->
+                            </div>
+                            <!-- End Single Slider -->
+                        </div>
+                        <!-- End Hero Slider -->
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-6 col-12 md-custom-padding">
+                            <!-- Start Small Banner -->
+                            <div class="hero-small-banner"
+                                style="background-image: url('https://www.hatyaifocus.com/ckeditor/upload/forums/3/%E0%B8%AD%E0%B8%B4%E0%B8%87%E0%B8%88%E0%B9%89%E0%B8%B2/%E0%B8%AB%E0%B8%A1%E0%B9%88%E0%B8%B2%E0%B8%A5%E0%B9%88%E0%B8%B2%20%E0%B8%9B%E0%B8%B2%E0%B8%81%E0%B8%8A%E0%B8%B2/W%20%E0%B8%AB%E0%B8%A1%E0%B9%88%E0%B8%B2%E0%B8%A5%E0%B9%88%E0%B8%B2%E0%B8%9B%E0%B8%B2%E0%B8%81%E0%B8%8A%E0%B8%B2-2.jpg');">
+                                <!--div class="content">
+                                    
+                                </div-->
+                            </div>
+                            <!-- End Small Banner -->
+                        </div>
+                        <div class="col-lg-12 col-md-6 col-12">
+                            <!-- Start Small Banner -->
+                            <div class="hero-small-banner style2">
+                                <div class="hero-small-banner"
+                                style="background-image: url('https://www.chillpainai.com/src/wewakeup/scoop/images/0674168ca6e5101a193eafa01745ca0761eb9a79.jpg');">
+                                <!--div class="content">
+                                    
+                                </!--div-->
+                            </div>
+                            <!-- Start Small Banner -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Ads Area -->
+
+    <!-- Start Trending Product Area -->
+
+    <section class="trending-product section" style="margin-top: 12px;">
+        <div class="container">
+            <div class="row">
+                <div class="">
+                    <!-- Navbar Category -->
+                    <header class="header navbar-area">
+                        <!-- Start -->
+                        <div style="background-color: #081828;" class="topbar">
+                            <div class="container">
+                                <div class="row align-items-center">
+
+                                    <div class="col-lg-12 col-md-12 col-12">
+                                        <div class="top-middle">
+                                            <ul class="useful-links">
+                                                <li style="margin-right: 7rem;"><a href="index.html">อาหาร</a></li>
+                                                <li style="margin-right: 7rem;"><a href="index.html">เครื่องดื่ม</a></li>
+                                                <li style="margin-right: 7rem;"><a href="index.html">ของทานเล่น</a></li>
+                                                <li style="margin-right: 7rem;"><a href="index.html">ของสด</a></li>
+                                                <li><a href="index.html">ผักและผลไม้</a></li>
+                                                <li style="margin-left: 7rem;"><a href="index.html">วัตถุดิบอื่น ๆ</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-12">
+                                        <div class="top-end">
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End -->
+                    </header>
+
+                </div>
+            </div>
+
+
+            <!-- Start Calculation Area -->
+            <!-- The div elements for the map and message -->
+            <div style="display: none;">
+                <div id="map"></div>
+                <div id="msg">The</div>
+                <div id="msg2">The</div>
+                <div id="msg3">The</div>
+
+
+                <div id="range1">1</div>
+                <div id="range2">2</div>
+                <div id="range3">3</div>
+                <div id="range4">4</div>
+                <div id="range5">5</div>
+                <div id="range6">6</div>
+                <div id="range7">7</div>
+                <div id="range8">8</div>
+            </div>
+    
+    <script>
+      // Initialize and add the map
+      var map;
+
+      //test_user 14.040271565190224, 100.60844568318247;
+
+      //test_shop 14.065654404772165, 100.61794624096136;
+
+      function initMap() {
+        // The map, centered on Central Park
+        const center = { lat: 29.7688502, lng: -95.3212729 };
+        const options = { zoom: 15, scaleControl: true, center: center };
+        map = new google.maps.Map(document.getElementById("map"), options);
+        // Locations of landmarks
+        const usercoords = { lat: 14.040271565190224, lng: 100.60844568318247 };
+        const point2 = { lat: 14.065654404772165, lng: 100.61794624096136 };
+        // The markers for The point1 and The point2 Collection
+        var mk1 = new google.maps.Marker({ position: usercoords, map: map });
+        var mk2 = new google.maps.Marker({ position: point2, map: map });
+        var line = new google.maps.Polyline({
+          path: [usercoords, point2],
+          map: map,
+        });
+
+        let directionsService = new google.maps.DirectionsService();
+
+        let directionsRenderer = new google.maps.DirectionsRenderer();
+        directionsRenderer.setMap(map); // Existing map object displays directions
+        // Create route from existing points used for markers
+        const route = {
+          origin: usercoords,
+          destination: point2,
+          travelMode: "DRIVING",
+        };
+
+        directionsService.route(
+          route,
+          // capture directions
+          function (response, status) {
+            if (status !== "OK") {
+              window.alert("Directions request failed due to " + status);
+              return;
+            } else {
+              directionsRenderer.setDirections(response); // Add route to the map
+              var directionsData = response.routes[0].legs[0]; // Get data about the mapped route
+              if (!directionsData) {
+                window.alert("Directions request failed");
+                return;
+              } else {
+                document.getElementById("msg").innerHTML +=
+                  " travel distance is " +
+                  directionsData.distance.text +
+                  " (" +
+                  directionsData.duration.text +
+                  ").";
+              }
+            }
+          }
+        );
+      }
+
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition((position) => {
+          const pos = {
+            lat: position.coords.latitude,
+            lng: position.coords.longitude,
+          };
+
+          const userlat = position.coords.latitude;
+          const userlon = position.coords.longitude;
+
+
+          const userpos = { lat: userlat, lng: userlon };
+          
+          const shoppos1 = { lat: 14.065654404772165, lng: 100.61794624096136 };
+          const shoppos2 = { lat: 14.046749171180467, lng: 100.61503483110549 };
+          const shoppos3 = { lat: 14.05046599762783, lng: 100.6142415460455 };
+          const shoppos4 = { lat: 14.082722050622767, lng: 100.63303863911872 };
+          const shoppos5 = { lat: 14.042176868956693, lng: 100.61186205545896 };
+          const shoppos6 = { lat: 14.013059599944484, lng: 100.59791628739191 };
+          const shoppos7 = { lat: 14.007568610362584, lng: 100.61025534896645 };
+          const shoppos8 = { lat: 14.081107304495138, lng: 100.62284183505628 };
+
+          let directionsService = new google.maps.DirectionsService();
+
+          let directionsRenderer = new google.maps.DirectionsRenderer();
+          directionsRenderer.setMap(map);
+
+          const route1 = {
+            origin: userpos,
+            destination: shoppos1,
+            travelMode: "DRIVING",
+          };
+
+          const route2 = {
+            origin: userpos,
+            destination: shoppos2,
+            travelMode: "DRIVING",
+          };
+
+          const route3 = {
+            origin: userpos,
+            destination: shoppos3,
+            travelMode: "DRIVING",
+          };
+
+          const route4 = {
+            origin: userpos,
+            destination: shoppos4,
+            travelMode: "DRIVING",
+          };
+
+          const route5 = {
+            origin: userpos,
+            destination: shoppos5,
+            travelMode: "DRIVING",
+          };
+
+          const route6 = {
+            origin: userpos,
+            destination: shoppos6,
+            travelMode: "DRIVING",
+          };
+
+          const route7 = {
+            origin: userpos,
+            destination: shoppos7,
+            travelMode: "DRIVING",
+          };
+
+          const route8 = {
+            origin: userpos,
+            destination: shoppos8,
+            travelMode: "DRIVING",
+          };
+
+
+
+          directionsService.route(
+            route1,
+            // capture directions
+            function (response, status) {
+              if (status !== "OK") {
+                window.alert("Directions request failed due to " + status);
+                return;
+              } else {
+                directionsRenderer.setDirections(response); // Add route to the map
+                var directionsData = response.routes[0].legs[0]; // Get data about the mapped route
+
+                if (!directionsData) {
+                  window.alert("Directions request failed");
+                  return;
+                } else {
+                  var range1 = directionsData.distance.text;
+
+                  var str1 = range1.replace("km", "กิโลเมตร");
+                
+                  document.getElementById("range1").innerHTML +=
+                    " travel distance is " +
+                    directionsData.distance.text +
+                    " (" +
+                    directionsData.duration.text +
+                    ").";
+
+                    
+                    document.getElementById('range_1').textContent = str1;
+
+                  console.log("range1 = " + range1);
+                }
+              }
+            }
+          );
+
+          directionsService.route(
+            route2,
+            // capture directions
+            function (response, status) {
+              if (status !== "OK") {
+                window.alert("Directions request failed due to " + status);
+                return;
+              } else {
+                directionsRenderer.setDirections(response); // Add route to the map
+                var directionsData = response.routes[0].legs[0]; // Get data about the mapped route
+
+                if (!directionsData) {
+                  window.alert("Directions request failed");
+                  return;
+                } else {
+                  var range2 = directionsData.distance.text;
+
+                  var str2 = range2.replace("km", "กิโลเมตร");
+                
+                  document.getElementById("range2").innerHTML +=
+                    " travel distance is " +
+                    directionsData.distance.text +
+                    " (" +
+                    directionsData.duration.text +
+                    ").";
+
+                    
+                    document.getElementById('range_2').textContent = str2;
+
+                  console.log("range2 = " + range2);
+                }
+              }
+            }
+          );
+          directionsService.route(
+            route3,
+            // capture directions
+            function (response, status) {
+              if (status !== "OK") {
+                window.alert("Directions request failed due to " + status);
+                return;
+              } else {
+                directionsRenderer.setDirections(response); // Add route to the map
+                var directionsData = response.routes[0].legs[0]; // Get data about the mapped route
+
+                if (!directionsData) {
+                  window.alert("Directions request failed");
+                  return;
+                } else {
+                  var range3 = directionsData.distance.text;
+
+                  var str3 = range3.replace("km", "กิโลเมตร");
+                
+                  document.getElementById("range3").innerHTML +=
+                    " travel distance is " +
+                    directionsData.distance.text +
+                    " (" +
+                    directionsData.duration.text +
+                    ").";
+
+                    
+                    document.getElementById('range_3').textContent = str3;
+                  console.log("range3 = " + range3);
+                }
+              }
+            }
+          );
+          directionsService.route(
+            route4,
+            // capture directions
+            function (response, status) {
+              if (status !== "OK") {
+                window.alert("Directions request failed due to " + status);
+                return;
+              } else {
+                directionsRenderer.setDirections(response); // Add route to the map
+                var directionsData = response.routes[0].legs[0]; // Get data about the mapped route
+
+                if (!directionsData) {
+                  window.alert("Directions request failed");
+                  return;
+                } else {
+                  var range4 = directionsData.distance.text;
+
+                  var str4 = range4.replace("km", "กิโลเมตร");
+                
+                  document.getElementById("range4").innerHTML +=
+                    " travel distance is " +
+                    directionsData.distance.text +
+                    " (" +
+                    directionsData.duration.text +
+                    ").";
+
+                    
+                    document.getElementById('range_4').textContent = str4;
+
+                  console.log("range4 = " + range4);
+                }
+              }
+            }
+          );
+          directionsService.route(
+            route5,
+            // capture directions
+            function (response, status) {
+              if (status !== "OK") {
+                window.alert("Directions request failed due to " + status);
+                return;
+              } else {
+                directionsRenderer.setDirections(response); // Add route to the map
+                var directionsData = response.routes[0].legs[0]; // Get data about the mapped route
+
+                if (!directionsData) {
+                  window.alert("Directions request failed");
+                  return;
+                } else {
+                  var range5 = directionsData.distance.text;
+
+                  var str5 = range5.replace("km", "กิโลเมตร");
+                
+                  document.getElementById("range5").innerHTML +=
+                    " travel distance is " +
+                    directionsData.distance.text +
+                    " (" +
+                    directionsData.duration.text +
+                    ").";
+
+                    
+                    document.getElementById('range_5').textContent = str5;
+
+                  console.log("range5 = " + range5);
+                }
+              }
+            }
+          );
+          directionsService.route(
+            route6,
+            // capture directions
+            function (response, status) {
+              if (status !== "OK") {
+                window.alert("Directions request failed due to " + status);
+                return;
+              } else {
+                directionsRenderer.setDirections(response); // Add route to the map
+                var directionsData = response.routes[0].legs[0]; // Get data about the mapped route
+
+                if (!directionsData) {
+                  window.alert("Directions request failed");
+                  return;
+                } else {
+                  var range6 = directionsData.distance.text;
+
+                  var str6 = range6.replace("km", "กิโลเมตร");
+                
+                  document.getElementById("range6").innerHTML +=
+                    " travel distance is " +
+                    directionsData.distance.text +
+                    " (" +
+                    directionsData.duration.text +
+                    ").";
+
+                    
+                    document.getElementById('range_6').textContent = str6;
+
+                  console.log("range6 = " + range6);
+                }
+              }
+            }
+          );
+          directionsService.route(
+            route7,
+            // capture directions
+            function (response, status) {
+              if (status !== "OK") {
+                window.alert("Directions request failed due to " + status);
+                return;
+              } else {
+                directionsRenderer.setDirections(response); // Add route to the map
+                var directionsData = response.routes[0].legs[0]; // Get data about the mapped route
+
+                if (!directionsData) {
+                  window.alert("Directions request failed");
+                  return;
+                } else {
+                  var range7 = directionsData.distance.text;
+
+                  var str7 = range7.replace("km", "กิโลเมตร");
+                
+                  document.getElementById("range7").innerHTML +=
+                    " travel distance is " +
+                    directionsData.distance.text +
+                    " (" +
+                    directionsData.duration.text +
+                    ").";
+
+                    document.getElementById('range_7').textContent = str7;
+
+                  console.log("range7 = " + range7);
+                }
+              }
+            }
+          );
+          directionsService.route(
+            route8,
+            // capture directions
+            function (response, status) {
+              if (status !== "OK") {
+                window.alert("Directions request failed due to " + status);
+                return;
+              } else {
+                directionsRenderer.setDirections(response); // Add route to the map
+                var directionsData = response.routes[0].legs[0]; // Get data about the mapped route
+
+                if (!directionsData) {
+                  window.alert("Directions request failed");
+                  return;
+                } else {
+                  var range8 = directionsData.distance.text;
+
+                  var str8 = range8.replace("km", "กิโลเมตร");
+                
+                  document.getElementById("range8").innerHTML +=
+                    " travel distance is " +
+                    directionsData.distance.text +
+                    " (" +
+                    directionsData.duration.text +
+                    ").";
+
+                    document.getElementById('range_8').textContent = str8;
+
+                  console.log("range8 = " + range8);
+                }
+              }
+            }
+          );
+
+          console.log(userlat, userlon, shoppos1, userpos);
+
+          document.getElementById("msg2").innerHTML =
+            "user lat = " + userlat + " and user lon = " + userlon;
+        });
+      } else {
+        // Browser doesn't support Geolocation
+      }
+    </script>
+    <!-- api key -->
+    <script>
+      src =
+        "https://maps.googleapis.com/maps/api/distancematrix/json?key=AIzaSyD4DdGgEXT2xstH_OCH7-foD7HBN8GFedw&origins=51.493490%2C-0.097288&destinations=place_id%3AChIJVSZzVR8FdkgRTyQkxxLQmVU%7Cplace_id%3AChIJVSZzVR8FdkgR-HklrBMO0Hc%7Cplace_id%3AChIJ4abvVDwbdkgRDZVFR7A6Bcc&units=metric&mode=driving&solution_channel=GMP_guides_locatorplus_v2_a";
+    </script>
+            <!-- End Calculation Area -->
+
+
+
+
+
+
+
+
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-12">
+                    <!-- Start Single Product -->
+                    <div class="single-product">
+                        <div class="product-image">
+                            <img src="assets/images/products/042-khaomankaimongkolwattana-blog-img_1.jpg" alt="#">
+                            <div class="button">
+                                <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> ไปที่ร้านค้า</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <span class="category">อาหาร</span>
+                            <h4 class="title">
+                                <a href="product-details.html">ร้านข้าวมันไก่</a>
+                            </h4>
+                            <ul class="review">
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star"></i></li>
+                                <li><span>4.0 Review(s)</span></li>
+                            </ul>
+                            <div class="price">
+                                <span id="range_1"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Product -->
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <!-- Start Single Product -->
+                    <div class="single-product">
+                        <div class="product-image">
+                            <img src="assets/images/products/AC0K2238.jpg" alt="#">
+                            <!--span class="sale-tag">-25%</!--span-->
+                            <div class="button">
+                                <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> ไปที่ร้านค้า</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <span class="category">อาหาร</span>
+                            <h4 class="title">
+                                <a href="product-details.html">ร้านข้าวแกง</a>
+                            </h4>
+                            <ul class="review">
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><span>5.0 Review(s)</span></li>
+                            </ul>
+                            <div class="price">
+                                <span id="range_2"></span>
+                                <!--span class="discount-price">$300.00</!--span-->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Product -->
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <!-- Start Single Product -->
+                    <div class="single-product">
+                        <div class="product-image">
+                            <img src="assets/images/products/kradarn_dum01.jpg" alt="#">
+                            <div class="button">
+                                <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> ไปที่ร้านค้า</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <span class="category">เครื่องดื่ม</span>
+                            <h4 class="title">
+                                <a href="product-details.html">ร้านน้ำปั่น</a>
+                            </h4>
+                            <ul class="review">
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><span>5.0 Review(s)</span></li>
+                            </ul>
+                            <div class="price">
+                                <span id="range_3"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Product -->
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <!-- Start Single Product -->
+                    <div class="single-product">
+                        <div class="product-image">
+                            <img src="assets/images/products/download.jpeg" alt="#">
+                            <span class="new-tag"></span>
+                            <div class="button">
+                                <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> ไปที่ร้านค้า</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <span class="category">ผักและผลไม้</span>
+                            <h4 class="title">
+                                <a href="product-details.html">ร้านขายผลไม้</a>
+                            </h4>
+                            <ul class="review">
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><span>5.0 Review(s)</span></li>
+                            </ul>
+                            <div class="price">
+                                <span id="range_4"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Product -->
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <!-- Start Single Product -->
+                    <div class="single-product">
+                        <div class="product-image">
+                            <img src="assets/images/products/download (1).jpeg" alt="#">
+                            <div class="button">
+                                <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> ไปที่ร้านค้า</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <span class="category">ของทานเล่น</span>
+                            <h4 class="title">
+                                <a href="product-details.html">ร้านลูกชิ้นทอด</a>
+                            </h4>
+                            <ul class="review">
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><span>5.0 Review(s)</span></li>
+                            </ul>
+                            <div class="price">
+                                <span id="range_5"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Product -->
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <!-- Start Single Product -->
+                    <div class="single-product">
+                        <div class="product-image">
+                            <img src="assets/images/products/2020-11-26.jpg" alt="#">
+                            <div class="button">
+                                <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> ไปที่ร้านค้า</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <span class="category">ของสด</span>
+                            <h4 class="title">
+                                <a href="product-details.html">ร้านขายของสด</a>
+                            </h4>
+                            <ul class="review">
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star"></i></li>
+                                <li><span>4.0 Review(s)</span></li>
+                            </ul>
+                            <div class="price">
+                                <span id="range_6"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Product -->
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <!-- Start Single Product -->
+                    <div class="single-product">
+                        <div class="product-image">
+                            <img src="assets/images/products/download (2).jpeg" alt="#">
+                            <span class="sale-tag"></span>
+                            <div class="button">
+                                <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> ไปที่ร้านค้า</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <span class="category">วัตถุดิบอื่น ๆ</span>
+                            <h4 class="title">
+                                <a href="product-details.html">ร้านขายวัตถุดิบ</a>
+                            </h4>
+                            <ul class="review">
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star"></i></li>
+                                <li><span>4.0 Review(s)</span></li>
+                            </ul>
+                            <div class="price">
+                                <span id="range_7"></span>
+                                <!--span class="discount-price">$200.00</!--span-->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Product -->
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <!-- Start Single Product -->
+                    <div class="single-product">
+                        <div class="product-image">
+                            <img src="assets/images/products/2020-05-12.jpg" alt="#">
+                            <div class="button">
+                                <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> ไปที่ร้านค้า</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <span class="category">ผักและผลไม้</span>
+                            <h4 class="title">
+                                <a href="product-details.html">ร้านขายผัก</a>
+                            </h4>
+                            <ul class="review">
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><span>5.0 Review(s)</span></li>
+                            </ul>
+                            <div class="price">
+                                <span id="range_8"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Product -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Trending Product Area -->
+
+    <!-- End Banner Area -->
+
+    <!-- ========================= scroll-top ========================= -->
+    <a href="#" class="scroll-top">
+        <i class="lni lni-chevron-up"></i>
+    </a>
+        
+    <!-- ========================= JS ========================= -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/tiny-slider.js"></script>
+    <script src="assets/js/glightbox.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script type="text/javascript">
+        //========= Hero Slider 
+        tns({
+            container: '.hero-slider',
+            slideBy: 'page',
+            autoplay: true,
+            autoplayButtonOutput: false,
+            mouseDrag: true,
+            gutter: 0,
+            items: 1,
+            nav: false,
+            controls: true,
+            controlsText: ['<i class="lni lni-chevron-left"></i>', '<i class="lni lni-chevron-right"></i>'],
+        });
+
+        //======== Brand Slider
+        tns({
+            container: '.brands-logo-carousel',
+            autoplay: true,
+            autoplayButtonOutput: false,
+            mouseDrag: true,
+            gutter: 15,
+            nav: false,
+            controls: false,
+            responsive: {
+                0: {
+                    items: 1,
+                },
+                540: {
+                    items: 3,
+                },
+                768: {
+                    items: 5,
+                },
+                992: {
+                    items: 6,
+                }
+            }
+        });
+
+
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>
